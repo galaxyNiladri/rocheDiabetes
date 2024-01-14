@@ -47,7 +47,7 @@ async def test_fuzzbizz2():
 async def test_stat():
     async with AsyncClient(app=app, base_url="http://localhost:8000") as ac:
         response = await ac.get("/stat")
-    if len(stat_dict) == 0:
+    if stat_dict is None:
         assert response.status_code == 200
         assert response.json() == {}
     else:

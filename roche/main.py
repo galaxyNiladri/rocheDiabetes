@@ -5,7 +5,7 @@ import asyncio
 counter = 0  # counter to count API requests
 lock = asyncio.Lock()  # safe lock is used to get the actual count not modified by other requests
 app = FastAPI()
-request, stat_dict = dict(), None  # global dictionary to hold request parameters and its number of call
+request, stat_dict = dict(), ''  # global dictionary to hold request parameters and its number of call
 
 
 @app.get("/stat")
