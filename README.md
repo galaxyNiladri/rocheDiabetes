@@ -29,4 +29,4 @@ Example: “1,2,fizz,4,buzz,fizz,7,8,fizz,buzz,11,fizz,13,14,fizzbuzz,16,..."
 **Final Files to deploy in Cloud**
 1. python-app.yml
 2. python-publish.yml
-These two can be deployed in anycloud. Due to no license for Azure/any cloud, it can be deployed. But both are build successfully can be used as final version for any cloud deployment.
+These two can be deployed in anycloud. Due to no license for Azure/any cloud, it can't be deployed. But both are built successfully and  can be used as final version for any cloud deployment.
