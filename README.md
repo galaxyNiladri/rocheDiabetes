@@ -25,3 +25,8 @@ Example: “1,2,fizz,4,buzz,fizz,7,8,fizz,buzz,11,fizz,13,14,fizzbuzz,16,..."
 3. pytest: Pytest is a testing framework for Python to support small unit tests as well as complex functional tests for applications as well as APIs.
 4. httpx: httpx is a fully featured HTTP client library in Python. It supports both synchronous and asynchronous APIs.
 5. trio: This library is used to produce a production quality code async/await I/O libary in Python.
+
+**Final Files to deploy in Cloud**
+1. python-app.yml
+2. python-publish.yml
+These two can be deployed in anycloud. Due to no license for Azure/any cloud, it can be deployed. But both are build successfully can be used as final version for any cloud deployment.
