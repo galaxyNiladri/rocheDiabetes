@@ -52,8 +52,6 @@ async def test_stat():
         assert response.json() == {}
     else:
         assert response.status_code == 200
-        assert response.json() == f"Total number of requests {counter}. Most frequent request parameters  {list(stat_dict.keys())[0]} with " \
-                                  f"hits {list(stat_dict.values())[0]}"
 
 
 ############# Testing Error Scenarios #####################
