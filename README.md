@@ -20,7 +20,7 @@ Example: “1,2,fizz,4,buzz,fizz,7,8,fizz,buzz,11,fizz,13,14,fizzbuzz,16,..."
 4. You will get the test pass results
 
 **External Libraries**
-1. uvicorn : Uvicorn is ASGI Python webframework. ASGI is used because it follows asynchronous concurrency model which helps in lightweight background tasks. This in turn can be helpful for slow HTTP requests.
+1. uvicorn : Uvicorn is ASGI Python webframework. ASGI is used because it follows asynchronous concurrency model which helps in lightweight background tasks. This in turn can be helpful for slow HTTP requests. It is used to run the API server developed with fastapi.
 2. fastapi: FastAPI is a python webframework for building APIs in python in par with Go and NodeJS in minimal time.
 3. pytest: Pytest is a testing framework for Python to support small unit tests as well as complex functional tests for applications as well as APIs.
 4. httpx: httpx is a fully featured HTTP client library in Python. It supports both synchronous and asynchronous APIs.
