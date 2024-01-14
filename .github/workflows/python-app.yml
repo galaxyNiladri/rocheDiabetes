@@ -30,6 +30,7 @@ jobs:
         pip install httpx
         pip install fastapi
         pip install trio
+        pip install uvicorn
     - name: Test with pytest
       run: |
         pytest
